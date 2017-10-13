@@ -1,11 +1,29 @@
+.nav a:link, .nav a:visited{
+	color:white;
+	text-align:center;
+	text-decoration: none;
+	display: inline-block;
+	padding:0px 10px;
+	margin-right:10px;
+}
+.nav a:hover{
+	color:light-gray;
+}
+body h1{
+	margin-bottom:20px;
+}
+
+.row {
+	margin-left:30px;
+}
+
 .nav{
 	border-radius: 10px;
 	border: 2px solid #000000;
+	background: #000000;
+	font-color: #FFFFFF;
 	margin: 10px;
 	padding: 15px;
-}
-.nav li{
-	margin-right:10px;
 }
 
 table{
@@ -18,5 +36,5 @@ table tr{
 
 table tr td{
 	border: 1px solid #000000;
-	padding: 5 px;
+	padding: 13px 13px 0px 13px;
 }
